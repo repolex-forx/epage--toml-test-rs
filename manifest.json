@@ -47,6 +47,104 @@
       ],
       "ast": [
         "aggregate/ast/45614df176dc8006f6517c74d738fc7f8c5a5c19/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/45614df176dc8006f6517c74d738fc7f8c5a5c19.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.145",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "8c036ee5a313b849c52eaaef6421c3b68dd1a350",
+          "githubTag": "v1.0.145",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.85",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "44d9c53e2507636c0c2afee0c9c132095dddb7df",
+          "githubTag": "v1.0.85",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "chrono",
+          "ecosystem": "CARGO",
+          "version": "0.4.22",
+          "githubOrg": "chronotope",
+          "githubRepo": "chrono",
+          "githubCommit": "45142764ab6e1f2957437aa187970b94d3aaeadc",
+          "githubTag": "v0.4.22",
+          "githubUrl": "https://github.com/chronotope/chrono",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "ryu",
+          "ecosystem": "CARGO",
+          "version": "1.0.15",
+          "githubOrg": "dtolnay",
+          "githubRepo": "ryu",
+          "githubCommit": "9764b3d0ff54177a7fa64d0a1e22de3acf0af09e",
+          "githubTag": "1.0.15",
+          "githubUrl": "https://github.com/dtolnay/ryu",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "toml-test-data",
+          "ecosystem": "CARGO",
+          "version": "1.14.0",
+          "githubOrg": "epage",
+          "githubRepo": "toml-test-rs",
+          "githubUrl": "https://github.com/epage/toml-test-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libtest-mimic",
+          "ecosystem": "CARGO",
+          "version": "0.7.3",
+          "githubOrg": "LukasKalbertodt",
+          "githubRepo": "libtest-mimic",
+          "githubCommit": "af6e4275411e23cb0bd524ff7efbea8ccf4ca7d0",
+          "githubTag": "v0.7.3",
+          "githubUrl": "https://github.com/LukasKalbertodt/libtest-mimic",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libtest-mimic-0.7.3/src/lib.rs"
+        },
+        {
+          "packageName": "ignore",
+          "ecosystem": "CARGO",
+          "version": "0.4.20",
+          "githubOrg": "BurntSushi",
+          "githubRepo": "ripgrep",
+          "githubUrl": "https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.20/src/gitignore.rs"
+        },
+        {
+          "packageName": "include_dir",
+          "ecosystem": "CARGO",
+          "version": "0.7.3",
+          "githubOrg": "Michael-F-Bryan",
+          "githubRepo": "include_dir",
+          "githubUrl": "https://github.com/Michael-F-Bryan/include_dir",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/include_dir-0.7.3/src/dir.rs"
+        },
+        {
+          "packageName": "include_dir_macros",
+          "ecosystem": "CARGO",
+          "version": "0.7.3",
+          "githubOrg": "Michael-F-Bryan",
+          "githubRepo": "include_dir",
+          "githubUrl": "https://github.com/Michael-F-Bryan/include_dir",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/include_dir_macros-0.7.3/src/lib.rs"
+        }
       ]
     }
   ],
