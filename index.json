@@ -1,0 +1,11 @@
+{
+  "org": "epage",
+  "repo": "toml-test-rs",
+  "versions": [
+    {
+      "commit": "45614df176dc8006f6517c74d738fc7f8c5a5c19",
+      "tag": "v1.0.4",
+      "parsed_at": "2026-11-22T06:29:37.220303+00:00"
+    }
+  ]
+}
